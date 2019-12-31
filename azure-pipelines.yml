@@ -19,7 +19,7 @@ steps:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
-- script: python -mhtmllib "h1.html"
+- script: python -mhtmllib "s.html"
 
 - script: |
     pip install -r requirements.txt
